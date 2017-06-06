@@ -15,3 +15,4 @@ module.exports.SigningKeyNotFoundError = errors.SigningKeyNotFoundError;
 
 module.exports.expressJwtSecret = expressJwtSecret;
 module.exports.hapiJwt2Key = hapiJwt2Key;
+module.exports.koaJwt2Key = koaJwt2Key;
