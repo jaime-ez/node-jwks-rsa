@@ -3,7 +3,7 @@ import { JwksClient } from './JwksClient';
 import * as errors from './errors';
 import { hapiJwt2Key } from './integrations/hapi';
 import { expressJwtSecret } from './integrations/express';
-
+import { koaJwt2Key } from './integrations/koa';
 module.exports = (options) => {
   return new JwksClient(options);
 };
